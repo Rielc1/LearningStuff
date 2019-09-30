@@ -1,0 +1,385 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pr",
+				"previousValues"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"next",
+				"nextPlayer"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ac",
+				"activePlayer"
+			],
+			[
+				"round",
+				"roundScore"
+			],
+			[
+				"active",
+				"activePlayer"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"dice",
+				"dice"
+			],
+			[
+				"player",
+				"player-0-panel"
+			],
+			[
+				"cu",
+				"current-0"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"roun",
+				"roundScore"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"mark",
+				"mark"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"Exp",
+				"Experience"
+			],
+			[
+				"fo",
+				"flood-color\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"mari",
+				"margin-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"a",
+				"auto\theight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "// var getItem = function(row,j){\n//     if (j < 0 || j >= row.length){\n//     return 0;\n// }\n// return row[j];\n// }\n\n// var getRow = function(rowIndex){\n//     var row = [1];\n//     for(var i=0; i < rowIndex;++i){\n//         var newRow = [];\n//         for(var j=0; j<=i +1 ;++j){\n//             var digit = getItem(row, j-1) + getItem(row,j);\n//                 newRow.push(digit);\n//         }\n//         row= newRow;\n//     }\n//     return row;\n// };\n// console.log(getRow(3));\n// creates function\n// var longestPalindrome = function(s) {\n//     var letters ={};\n//     //create hash map\n//     for (var i = 0; i<s.length;++i ){\n//         var si = s[i];\n//         if (letters[si]) {\n//             letters[si]++;\n//         }else {\n//             letters[si] = 1;\n//         }\n//     }\n// };\n// //scans hash map for pairs\n// var totalPairs =0;\n// var hasOdd = false;\n// for (var l in letters){\n//     var c = letters[l];\n//     var pairs = math.floor(c/2);\n//     if(!hasOdd && c - pairs * 2 >= 1){\n//         hasOdd = true;\n//     }   \n//     totalPairs += pairs;\n// }\n// return totalPairs * 2 + (hasOdd ? 1 : 0);\nvar twoSum = function(nums, target){\n    const previousValues ={};\n    for (let i = 0; i < nums.length; i++){\n        const currentNumber = nums[i];\n        const neededValue = target - currentNumber;\n        const index2 = previousValues[neededValue];\n        if (index2 != null){\n            return[index2, index]\n\n        }\n        else{\n            previousValues[currentNumber];\n        }\n    }\n};",
+			"file": "/C/Users/Dogbreath/Desktop/Learning.js",
+			"file_size": 1061,
+			"file_write_time": 132133254523591764,
+			"settings":
+			{
+				"buffer_size": 1523,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/games/RPGs/Ni no Kuni - WotWW - Remastered/debug_files.txt",
+			"settings":
+			{
+				"buffer_size": 55,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"snipet loo",
+				"Snippet: for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp64/www/onlineExamCreation/CSS/bootstrap.min.css",
+		"/D/SteamLibrary/steamapps/common/Fallout New Vegas/TTW_Readme.txt",
+		"/C/Users/Dogbreath/Desktop/Games/yy/READ ME FIRST!!!.txt",
+		"/C/Users/Dogbreath/Desktop/Games/Dwarf Fortress/LNP/PyLNP.json",
+		"/C/Users/Dogbreath/Desktop/minecraft_rev/eula.txt",
+		"/D/Minecraft/Revel/server.properties",
+		"/D/Minecraft/Revel/options.txt",
+		"/D/Minecraft/Revel/eula.txt",
+		"/C/Users/Dogbreath/Desktop/minecraft_rev/server.properties",
+		"/D/Minecraft/Server/banned-players.json",
+		"/C/wamp64/www/onlineExamCreation/index.html",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$DIa2832.2676/Read Me.txt",
+		"/D/Minecraft/eula.txt",
+		"/D/games/BATTLETECH/BattleTech_Data/StreamingAssets/data/weapon/Weapon_Laser_SmallLaser_0-STOCK.json",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/port.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/CSS/style.css",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/about.html",
+		"/C/Program Files/Git/ReleaseNotes.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/Exp.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/index.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/Test/index.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/CSS/bootstrap.css",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/index_old.html",
+		"/F/Downloads/a5.sql",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa1884.45505/Header-Picture.html",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa9696.39006/Footer-white.html",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa11152.21338/Footer-with-button-logo.html",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa13244.43754/compact-gallery/compact-gallery.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/Riese_web.rar",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa9276.1065/compact-gallery/compact-gallery.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/CSS/bootstrap.min.css"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Dogbreath/Desktop/Learning.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1523,
+								1121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/games/RPGs/Ni no Kuni - WotWW - Remastered/debug_files.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "PHP_learn.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Dogbreath\\Documents\\learning\\5-advanced-JS\\starter\\PHP_learn.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

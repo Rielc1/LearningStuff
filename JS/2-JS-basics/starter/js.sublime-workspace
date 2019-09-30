@@ -1,0 +1,477 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"next",
+				"nextPlayer"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ac",
+				"activePlayer"
+			],
+			[
+				"round",
+				"roundScore"
+			],
+			[
+				"active",
+				"activePlayer"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"dice",
+				"dice"
+			],
+			[
+				"player",
+				"player-0-panel"
+			],
+			[
+				"cu",
+				"current-0"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"roun",
+				"roundScore"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"mark",
+				"mark"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"Exp",
+				"Experience"
+			],
+			[
+				"fo",
+				"flood-color\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"mari",
+				"margin-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"a",
+				"auto\theight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 6994,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dogbreath/Documents/learning/4-DOM-pig-game/starter/index.html",
+			"settings":
+			{
+				"buffer_size": 1749,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dogbreath/Documents/learning/4-DOM-pig-game/starter/app.js",
+			"settings":
+			{
+				"buffer_size": 3246,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// Function constructor\n\nvar john = {\n\tname: 'John',\n\tyearOfBirth: '1998',\n\tjob: 'teacher'\n};\nvar Person = function(name, yearOfBirth, job){\n\tthis.name =name;\n\tthis.yearOfBirth= yearOfBirth;\n\tthis.job = job;\n\t// this.calculateAge =function(){\n\t// \tconsole.log(2018 - this.yearOfBirth);\n\t\n\n}\nvar john = new Person ('John', 1990, 'teacher');\n/*\nvar person = function(name, yearOfBirth, job);\n\nso variable person holds the three fields name, yearOfBirth, job)\n\nvar john = new Person('john', 1995, 'web developer ');\n\nnew Person creates a empty object in the memory in this the fields and values of john are stored..\n\ninstead of writing the same code we are using\n\nnew object it automatically creates some block of memory and stores the new name with the fields\n*/\nPerson.prototype.calculateAge= function(){\n\tconsole.log(2018 - this.yearOfBirth);\n}\nvar jane = new Person ('jane',1995,'teacher');\nvar mark = new Person ('mark',1986,'retired');\njohn.calculateAge();\njane.calculateAge();\nmark.calculateAge();\n",
+			"file": "/C/Users/Dogbreath/Documents/learning/5-advanced-JS/starter/script.js",
+			"file_size": 1040,
+			"file_write_time": 131912534147075404,
+			"settings":
+			{
+				"buffer_size": 1002,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dogbreath/Documents/learning/5-advanced-JS/starter/index.html",
+			"settings":
+			{
+				"buffer_size": 308,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Dogbreath/Documents/learning",
+		"/C/Users/Dogbreath/Documents/learning/2-JS-basics",
+		"/C/Users/Dogbreath/Documents/learning/2-JS-basics/final",
+		"/C/Users/Dogbreath/Documents/learning/2-JS-basics/starter",
+		"/C/Users/Dogbreath/Documents/learning/3-how-JS-works",
+		"/C/Users/Dogbreath/Documents/learning/3-how-JS-works/starter",
+		"/C/Users/Dogbreath/Documents/learning/5-advanced-JS",
+		"/C/Users/Dogbreath/Documents/learning/5-advanced-JS/starter"
+	],
+	"file_history":
+	[
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/port.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/CSS/style.css",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/about.html",
+		"/C/Program Files/Git/ReleaseNotes.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/Exp.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/index.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/Test/index.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/CSS/bootstrap.css",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/index_old.html",
+		"/F/Downloads/a5.sql",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa1884.45505/Header-Picture.html",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa9696.39006/Footer-white.html",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa11152.21338/Footer-with-button-logo.html",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa13244.43754/compact-gallery/compact-gallery.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/Riese_web.rar",
+		"/C/Users/Dogbreath/AppData/Local/Temp/Rar$EXa9276.1065/compact-gallery/compact-gallery.html",
+		"/C/Users/Dogbreath/Documents/Class/Riese_web/CSS/bootstrap.min.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6993,
+								6993
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3374.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Dogbreath/Documents/learning/4-DOM-pig-game/starter/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Dogbreath/Documents/learning/4-DOM-pig-game/starter/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1543,
+								1542
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Dogbreath/Documents/learning/5-advanced-JS/starter/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								844,
+								844
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Dogbreath/Documents/learning/5-advanced-JS/starter/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "js.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Dogbreath\\Documents\\Class\\Riese_web\\WEBSITE_RIESE.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
